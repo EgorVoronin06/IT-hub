@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right bottom, #a3a1ff, #74f8db, #ffffff);/* Градиент фона */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Шрифт для текста */
+    background-color: #e9ecef; /* Цвет фона страницы */
+    margin: 0; /* Убираем отступы */
+    padding: 20px; /* Отступы вокруг содержимого */
+}
+
+.profile-container {
+    max-width: 600px; /* Максимальная ширина блока профиля */
+    margin: 0 auto; /* Центрируем блок */
+    background: rgba(255, 255, 255, 0.527); /* Цвет фона блока профиля */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень */
+    padding: 30px; /* Отступы внутри блока */
+}
+
+.profile-header {
+    display: flex; /* Используем flexbox для выравнивания */
+    align-items: center; /* Вертикальное выравнивание */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.profile-photo {
+    width: 120px; /* Ширина фото */
+    height: 120px; /* Высота фото */
+    border-radius: 50%; /* Круглая форма */
+    margin-right: 20px; /* Отступ справа от фото */
+    border: 4px solid #3498db; /* Обводка вокруг фото */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень для фото */
+}
+
+.profile-info {
+    flex-grow: 1; /* Позволяет занять оставшееся пространство */
+}
+
+.profile-info h2 {
+    margin: 0; /* Убираем отступы */
+    font-size: 1.8em; /* Размер заголовка */
+    color: #333; /* Цвет текста */
+}
+
+.profile-info p {
+    margin: 5px 0; /* Отступы для параграфов */
+    color: #777; /* Цвет текста */
+}
+
+.xp-container {
+    margin-top: 20px; /* Отступ сверху */
+    font-size: 1.5em; /* Размер текста */
+    color: #3498db; /* Цвет текста для XP */
+    text-align: center; /* Центрируем текст */
+}
+
+.xp {
+    display: inline-block; /* Позволяет анимацию */
+    transition: transform 0.3s; /* Плавный переход */
+}
+
+.xp:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+}
+
+.profile-bio {
+    margin-top: 20px; /* Отступ сверху */
+    font-size: 1em; /* Размер текста */
+    color: #555; /* Цвет текста */
+}
+
+.profile-bio h3 {
+    margin-top: 0; /* Убираем отступ сверху */
+    color: #3498db; /* Цвет заголовка "О себе" */
+}
+.social-links{
+    margin: 0 10px;
+    text-decoration: 0;
+    font-size: 24px;
+    transition: color 0.3s;
+    margin-top: 20px;
+    text-align: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.xp-container{
+    color: #0051ff;
+    transition: color 0.3s;
+}
